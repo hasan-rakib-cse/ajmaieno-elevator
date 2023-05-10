@@ -1,0 +1,487 @@
+/*BOOTSTRAP MEDIA QUERIES*/
+
+@media (min-width: 1200px) {
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+}
+
+@media (max-width: 1199.98px) {
+
+    /****************************/
+    /* BASIC SETUP */
+    /*****************************/
+    html {
+        font-size: 58.5%;
+    }
+
+    /*****************************/
+    /* REUSABLE COMPONENT */
+    /*****************************/
+    /*****************************/
+    /* HEADER SECTION */
+    /*****************************/
+
+    header .t-right ul li {
+        display: block;
+    }
+
+    header .t-right ul li {
+        margin-right: 0;
+    }
+
+    /*****************************/
+    /* NAV-BAR SECTION */
+    /*****************************/
+
+    nav ul li.nav-item {
+        margin-right: .5rem;
+    }
+
+    nav .icon-box {
+        margin-left: 1rem;
+    }
+
+    nav .icon-box div:first-child {
+        margin-right: 1rem;
+    }
+
+    nav .icon-box a {
+        width: 4rem;
+        height: 4rem;
+        background: #3b969a;
+        text-align: center;
+        line-height: 4rem;
+        color: #fff;
+        /* position: absolute; */
+        border-radius: 1rem;
+        left: 0;
+        box-shadow: .5rem .5rem 3rem -1.5rem #009498;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .icon-box span {
+        font-size: 1.6rem;
+        margin-bottom: .4px;
+    }
+
+    .icon-box .title {
+        line-height: 1;
+    }
+
+    .icon-box h5.title {
+        font-size: 1.5rem;
+    }
+
+    .icon-box div:first-child {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-box div:last-child span {
+        font-size: 1.4rem;
+    }
+
+    /*****************************/
+    /* HERO SECTION */
+    /*****************************/
+    /*****************************/
+    /* TOP-FOOTER SECTION */
+    /*****************************/
+}
+
+@media (max-width: 991.98px) {
+
+    /****************************/
+    /* BASIC SETUP*/
+    /*****************************/
+    html {
+        font-size: 60.5%;
+    }
+
+    /*****************************/
+    /* REUSABLE COMPONENT*/
+    /*****************************/
+    /*****************************/
+    /* HEADER SECTION */
+    /*****************************/
+
+    header .t-left,
+    header .t-right {
+        text-align: center;
+    }
+
+    header .t-right {
+        padding-top: 0;
+    }
+
+    header .t-right ul li {
+        display: inline-block;
+    }
+
+    header .t-right ul li {
+        margin-right: 1.6rem;
+
+    }
+
+    /*****************************/
+    /* NAV-BAR SECTION*/
+    /*****************************/
+    nav ul li.nav-item {
+        margin-right: 0;
+    }
+
+    nav ul.nav_right {
+        text-align: right;
+        border: 1px solid #3b969a;
+    }
+
+    nav ul li a {
+        padding-right: 1rem !important;
+    }
+
+    nav ul li a.active {
+        background: #3b969a;
+        color: #fff !important;
+    }
+
+
+    nav div.icon-box {
+        display: none !important;
+    }
+
+    .dropdown-menu {
+        /* right: 0; */
+        font-size: 1.2rem;
+        color: #000;
+        text-align: right;
+        background-color: #fff;
+        /* border: 1px solid rgba(0, 0, 0, 0.15); */
+        padding-left: 0;
+        padding-right: 1rem;
+        margin-left: 0 !important;
+    }
+
+    nav ul li .dropdown-menu a {
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.2rem 0.5rem 1rem !important;
+    }
+
+    nav ul li .dropdown-menu a.active {
+        background: #3b969a;
+        color: #fff !important;
+    }
+
+    /*****************************/
+    /* HERO SECTION*/
+    /*****************************/
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    /* Left Separator */
+
+    .about .section-divider h3:before {
+        left: 36%;
+    }
+
+    /*Right Separator*/
+
+    .about .section-divider h3:after {
+        right: 36%;
+    }
+
+    /*****************************/
+    /* SERVICE SECTION */
+    /*****************************/
+
+    /* Left Separator */
+    .service .section-divider h3:before {
+        left: 36%;
+    }
+
+    /*Right Separator*/
+    .service .section-divider h3:after {
+        right: 36%;
+    }
+
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+
+    /* Left Separator */
+    .contact-form .section-divider h3:before,
+    .contact .section-divider h3:before {
+        left: 36%;
+    }
+
+    /*Right Separator*/
+    .contact-form .section-divider h3:after,
+    .contact .section-divider h3:after {
+        right: 36%;
+    }
+
+    .top-footer .l-footer {
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+    }
+
+    /*****************************/
+    /* TOP-FOOTER SECTION*/
+    /*****************************/
+}
+
+@media (max-width: 767.98px) {
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    /* Left Separator */
+
+    .about .section-divider h3:before {
+        left: 32%;
+    }
+
+    /*Right Separator*/
+
+    .about .section-divider h3:after {
+        right: 32%;
+    }
+
+    /*****************************/
+    /* SERVICE SECTION */
+    /*****************************/
+
+    /* Left Separator */
+    .service .section-divider h3:before {
+        left: 32%;
+    }
+
+    /*Right Separator*/
+    .service .section-divider h3:after {
+        right: 32%;
+    }
+
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+
+    /* Left Separator */
+    .contact-form .section-divider h3:before,
+    .contact .section-divider h3:before {
+        left: 32%;
+    }
+
+    /*Right Separator*/
+    .contact-form .section-divider h3:after,
+    .contact .section-divider h3:after {
+        right: 32%;
+    }
+
+    .contact .col-lg-4 div:nth-child(1) a {
+        width: 6.1rem;
+        font-size: 4rem;
+    }
+
+    /*****************************/
+    /* TOP-FOOTER SECTION */
+    /*****************************/
+    .top-footer .t-left {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .top-footer .t-right {
+        text-align: center;
+    }
+
+    .top-footer .border-dotted {
+        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .top-footer .r-footer {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+
+    .footer .t-left,
+    .footer .t-right {
+        text-align: center;
+    }
+
+    /* Left and Right Separator */
+    .footer .section-divider ul li:before,
+    .footer .section-divider ul li:after {
+        display: none;
+    }
+
+    /*****************************/
+    /* FOOTER SECTION*/
+    /*****************************/
+    .top-footer .link {
+        gap: 35%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    /* Left Separator */
+
+    .about .section-divider h3:before {
+        left: 25%;
+    }
+
+    /*Right Separator*/
+
+    .about .section-divider h3:after {
+        right: 25%;
+    }
+
+    /*****************************/
+    /* SERVICE SECTION */
+    /*****************************/
+
+    /* Left Separator */
+    .service .section-divider h3:before {
+        left: 25%;
+    }
+
+    /*Right Separator*/
+    .service .section-divider h3:after {
+        right: 25%;
+    }
+
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+
+    /* Left Separator */
+    .contact-form .section-divider h3:before,
+    .contact .section-divider h3:before {
+        left: 25%;
+    }
+
+    /*Right Separator*/
+    .contact-form .section-divider h3:after,
+    .contact .section-divider h3:after {
+        right: 25%;
+    }
+
+    .contact .col-lg-4 div:nth-child(1) a {
+        font-size: 3.7rem;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 480.98px) {
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    /* Left Separator */
+
+    .about .section-divider h3:before {
+        left: 20%;
+    }
+
+    /*Right Separator*/
+
+    .about .section-divider h3:after {
+        right: 20%;
+    }
+
+    /*****************************/
+    /* SERVICE SECTION */
+    /*****************************/
+
+    /* Left Separator */
+    .service .section-divider h3:before {
+        left: 20%;
+    }
+
+    /*Right Separator*/
+    .service .section-divider h3:after {
+        right: 20%;
+    }
+
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+
+    /* Left Separator */
+    .contact-form .section-divider h3:before,
+    .contact .section-divider h3:before {
+        left: 20%;
+    }
+
+    /*Right Separator*/
+    .contact-form .section-divider h3:after,
+    .contact .section-divider h3:after {
+        right: 20%;
+    }
+
+    .contact .col-lg-4 div:nth-child(1) a {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (max-width: 420px) {
+    /*****************************/
+    /* ABOUT SECTION*/
+    /*****************************/
+    /* Left Separator */
+
+    .about .section-divider h3:before {
+        left: 0;
+    }
+
+    /*Right Separator*/
+
+    .about .section-divider h3:after {
+        right: 0;
+    }
+
+    /*****************************/
+    /* SERVICE SECTION */
+    /*****************************/
+
+    /* Left Separator */
+    .service .section-divider h3:before {
+        left: 0;
+    }
+
+    /*Right Separator*/
+    .service .section-divider h3:after {
+        right: 0;
+    }
+
+    /*****************************/
+    /* CONTACT SECTION*/
+    /*****************************/
+
+    /* Left Separator */
+    .contact-form .section-divider h3:before,
+    .contact .section-divider h3:before {
+        left: 0;
+    }
+
+    /*Right Separator*/
+    .contact-form .section-divider h3:after,
+    .contact .section-divider h3:after {
+        right: 0;
+    }
+}
+
+@media (max-width: 334.98px) {}
+
+@media (max-width: 280.98px) {}
